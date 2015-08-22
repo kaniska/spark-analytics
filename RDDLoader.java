@@ -24,3 +24,7 @@
     
     // say productID 123 occurs in rowList [2,4,5,7,8,9]
     Tuple2<Integer, List<Integer>> tuple = new Tuple2<Integer, List<Integer>>(Integer.parseInt(strArr[0]), rowList);
+    // write code to create ColumnarRDD from columnar data
+    
+    // write custom Map and Reduce filters (extends PairFunction) 
+    // and apply them to rdd steps _.map and _.reduceByKey to get final aggregated result
