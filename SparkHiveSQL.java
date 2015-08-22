@@ -1,4 +1,16 @@
 
+import org.apache.spark.api.java.*;
+import org.apache.spark.SparkConf;
+
+import java.util.List;
+import org.apache.spark.sql.*;
+import org.apache.spark.sql.hive.*;
+
+import org.apache.spark.api.java.function.Function;
+import org.apache.spark.api.java.function.Function2;
+import org.apache.spark.api.java.function.PairFunction;
+import scala.Tuple2;
+
 
 public class SparkHiveSQL
 {
